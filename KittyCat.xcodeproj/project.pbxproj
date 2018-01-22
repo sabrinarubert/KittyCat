@@ -12,9 +12,19 @@
 		11B6C516201507CC000CECC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B6C514201507CC000CECC2 /* Main.storyboard */; };
 		11B6C518201507CC000CECC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B6C517201507CC000CECC2 /* Assets.xcassets */; };
 		11B6C51B201507CC000CECC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B6C519201507CC000CECC2 /* LaunchScreen.storyboard */; };
+		3D476BD09D9A21D30B0615E4 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F354A1443AAC04368B261E /* BuddyBuildSDK.framework */; };
+		4A848A4A69F6FA91966A50F2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12821E2A41C80839E30A2257 /* CoreTelephony.framework */; };
+		4B8D2A28364C94BE5889B219 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22785E4ED5DC581C922A180B /* AssetsLibrary.framework */; };
+		4F2A3CFDE0AAD467A48769A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A58C035E2DCD16FCD6C3207 /* QuartzCore.framework */; };
+		82BC069B053E6221497E60FC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93EAF5A2B57AC5CBB9EA89E /* CoreMedia.framework */; };
+		AB23C488A18D4A95BA2AD6F7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD980B1AF97183405D5687 /* CoreText.framework */; };
+		C37719583B4D4B0D1A903462 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB10E8B3EF9AA40E5E22FAF /* AVFoundation.framework */; };
+		D86C5057632FB1F9CE9DC913 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD856536563EC41F4966850 /* SystemConfiguration.framework */; };
+		E32F16188FE6413D84F8BE38 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C749AD524CAD96452AB77F0 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BBD980B1AF97183405D5687 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		11B6C50D201507CC000CECC2 /* KittyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B6C510201507CC000CECC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B6C512201507CC000CECC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,15 @@
 		11B6C517201507CC000CECC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B6C51A201507CC000CECC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B6C51C201507CC000CECC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12821E2A41C80839E30A2257 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		22785E4ED5DC581C922A180B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4BD856536563EC41F4966850 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8C749AD524CAD96452AB77F0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8EB10E8B3EF9AA40E5E22FAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A58C035E2DCD16FCD6C3207 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0F354A1443AAC04368B261E /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		D93EAF5A2B57AC5CBB9EA89E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F4FB54087B9364B85E104FCF /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +48,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D476BD09D9A21D30B0615E4 /* BuddyBuildSDK.framework in Frameworks */,
+				4B8D2A28364C94BE5889B219 /* AssetsLibrary.framework in Frameworks */,
+				AB23C488A18D4A95BA2AD6F7 /* CoreText.framework in Frameworks */,
+				4A848A4A69F6FA91966A50F2 /* CoreTelephony.framework in Frameworks */,
+				D86C5057632FB1F9CE9DC913 /* SystemConfiguration.framework in Frameworks */,
+				4F2A3CFDE0AAD467A48769A1 /* QuartzCore.framework in Frameworks */,
+				C37719583B4D4B0D1A903462 /* AVFoundation.framework in Frameworks */,
+				82BC069B053E6221497E60FC /* CoreMedia.framework in Frameworks */,
+				E32F16188FE6413D84F8BE38 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,8 @@
 			children = (
 				11B6C50F201507CC000CECC2 /* KittyCat */,
 				11B6C50E201507CC000CECC2 /* Products */,
+				868809195679BC6693BB9B29 /* Frameworks */,
+				F4FB54087B9364B85E104FCF /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +92,22 @@
 				11B6C51C201507CC000CECC2 /* Info.plist */,
 			);
 			path = KittyCat;
+			sourceTree = "<group>";
+		};
+		868809195679BC6693BB9B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F354A1443AAC04368B261E /* BuddyBuildSDK.framework */,
+				22785E4ED5DC581C922A180B /* AssetsLibrary.framework */,
+				0BBD980B1AF97183405D5687 /* CoreText.framework */,
+				12821E2A41C80839E30A2257 /* CoreTelephony.framework */,
+				4BD856536563EC41F4966850 /* SystemConfiguration.framework */,
+				9A58C035E2DCD16FCD6C3207 /* QuartzCore.framework */,
+				8EB10E8B3EF9AA40E5E22FAF /* AVFoundation.framework */,
+				D93EAF5A2B57AC5CBB9EA89E /* CoreMedia.framework */,
+				8C749AD524CAD96452AB77F0 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +321,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KittyCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sabrinarubert.KittyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,10 +340,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KittyCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sabrinarubert.KittyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
