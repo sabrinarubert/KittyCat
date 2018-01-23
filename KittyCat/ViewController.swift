@@ -9,38 +9,46 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var heart: UIImageView!
     @IBOutlet weak var eyes_sleepy: UIImageView!
     @IBOutlet weak var eyes_awake: UIImageView!
     
-    
-    
     override func viewDidAppear(_ animated: Bool) {
-
+        
         super.viewDidAppear(animated)
+        
         changeColor()
+
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(applicationBecameActive),
+                                               name: NSNotification.Name.UIApplicationDidBecomeActive,
+                                               object: nil)
+        
+    }
+    
+    @objc func applicationBecameActive(notification: NSNotification){
+        
         startHeartAnimation()
         startBlinkingEyes ()
         
     }
     
     func startHeartAnimation () {
-    
         
-    
+        self.heart.alpha = 1
+        
         UIView.animate(withDuration: 0.8, delay: 0.5, options: [UIViewAnimationOptions.autoreverse,UIViewAnimationOptions.repeat], animations: {
             
             self.heart.alpha = 0
             
         }) { (completed:Bool) in
             
-            print("animation ist fertig");
+            print("animation ist fertig1");
             
         }
         
     }
-    
     
     func startBlinkingEyes () {
         
@@ -51,19 +59,17 @@ class ViewController: UIViewController {
             
             self.eyes_awake.alpha = 0
             self.eyes_sleepy.alpha = 1
-                
             
-             }) { (completed:Bool) in
+        }) { (completed:Bool) in
             
-        
+            print("animation ist fertig2");
+            
         }
         
     }
     
-    
-    
     func changeColor() {
-
+        
         let colors : Array<UIColor> = [UIColor(red:0.94, green:0.76, blue:0.76, alpha:1.00), UIColor(red:0.76, green:0.91, blue:0.96, alpha:1.00),UIColor(red:0.85, green:0.94, blue:0.89, alpha:1.00), UIColor(red:0.98, green:0.94, blue:0.88, alpha:1.00)]
         
         let randomIndex = Int(arc4random_uniform(UInt32(colors.count)))
@@ -77,9 +83,8 @@ class ViewController: UIViewController {
             self.heart.isHidden = true
         }
         
-        
     }
-
+    
     @IBAction func onChangeColor(_ sender: Any) {
         changeColor()
         
